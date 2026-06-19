@@ -16,10 +16,10 @@ would be worse than shipping none. Follow the steps below to build it in about
 
 - Power BI Desktop (free).
 - The repository pushed to GitHub so the raw Parquet URL resolves.
-- Data source URL (replace `USERNAME`):
+- Data source URL (replace `tuychiyevkm`):
 
   ```
-  https://raw.githubusercontent.com/USERNAME/cbu-fx-pipeline/main/data/rates.parquet
+  https://raw.githubusercontent.com/tuychiyevkm/cbu-fx-pipeline/main/data/rates.parquet
   ```
 
 ---

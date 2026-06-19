@@ -7,8 +7,8 @@
 > PostgreSQL, рассчитывает дневные изменения в SQL и публикует файл Parquet для
 > Power BI — с автоматическим ежедневным обновлением через GitHub Actions.
 
-[![CI](https://github.com/USERNAME/cbu-fx-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/USERNAME/cbu-fx-pipeline/actions/workflows/ci.yml)
-[![Daily fetch](https://github.com/USERNAME/cbu-fx-pipeline/actions/workflows/daily-fetch.yml/badge.svg)](https://github.com/USERNAME/cbu-fx-pipeline/actions/workflows/daily-fetch.yml)
+[![CI](https://github.com/tuychiyevkm/cbu-fx-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/tuychiyevkm/cbu-fx-pipeline/actions/workflows/ci.yml)
+[![Daily fetch](https://github.com/tuychiyevkm/cbu-fx-pipeline/actions/workflows/daily-fetch.yml/badge.svg)](https://github.com/tuychiyevkm/cbu-fx-pipeline/actions/workflows/daily-fetch.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![Ruff](https://img.shields.io/badge/lint-ruff-261230.svg)](https://github.com/astral-sh/ruff)
@@ -207,7 +207,7 @@ secret**. Ничего не зашивается в код.
 Дашборд читает файл Parquet по HTTPS — шлюз не нужен.
 
 1. **Получить данные → Из Интернета**, URL:
-   `https://raw.githubusercontent.com/USERNAME/cbu-fx-pipeline/main/data/rates.parquet`
+   `https://raw.githubusercontent.com/tuychiyevkm/cbu-fx-pipeline/main/data/rates.parquet`
    (анонимная аутентификация).
 2. **Вид → Темы → Обзор** и примените [`powerbi/theme.json`](powerbi/theme.json).
 3. Соберите три страницы по

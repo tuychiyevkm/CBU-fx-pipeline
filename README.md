@@ -7,8 +7,8 @@
 > star schema, computes day-over-day changes in SQL, and serves a Parquet file
 > to Power BI — refreshed automatically every day via GitHub Actions.
 
-[![CI](https://github.com/USERNAME/cbu-fx-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/USERNAME/cbu-fx-pipeline/actions/workflows/ci.yml)
-[![Daily fetch](https://github.com/USERNAME/cbu-fx-pipeline/actions/workflows/daily-fetch.yml/badge.svg)](https://github.com/USERNAME/cbu-fx-pipeline/actions/workflows/daily-fetch.yml)
+[![CI](https://github.com/tuychiyevkm/cbu-fx-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/tuychiyevkm/cbu-fx-pipeline/actions/workflows/ci.yml)
+[![Daily fetch](https://github.com/tuychiyevkm/cbu-fx-pipeline/actions/workflows/daily-fetch.yml/badge.svg)](https://github.com/tuychiyevkm/cbu-fx-pipeline/actions/workflows/daily-fetch.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![Ruff](https://img.shields.io/badge/lint-ruff-261230.svg)](https://github.com/astral-sh/ruff)
@@ -204,7 +204,7 @@ the environment.
 The dashboard reads the Parquet serving file over HTTPS — no gateway required.
 
 1. **Get data → Web**, URL:
-   `https://raw.githubusercontent.com/USERNAME/cbu-fx-pipeline/main/data/rates.parquet`
+   `https://raw.githubusercontent.com/tuychiyevkm/cbu-fx-pipeline/main/data/rates.parquet`
    (Anonymous auth).
 2. **View → Themes → Browse** and apply [`powerbi/theme.json`](powerbi/theme.json).
 3. Build the three pages following
