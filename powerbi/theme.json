@@ -1,0 +1,121 @@
+{
+  "name": "CBU Currency Dashboard",
+  "dataColors": [
+    "#1B2A4A",
+    "#17A398",
+    "#F2A93B",
+    "#2ECC71",
+    "#E15554",
+    "#4A6FA5",
+    "#8FD4CC",
+    "#F7C879"
+  ],
+  "foreground": "#2D2D2D",
+  "foregroundNeutralSecondary": "#5A5A5A",
+  "foregroundNeutralTertiary": "#9AA0A6",
+  "background": "#F7F9FC",
+  "backgroundLight": "#FFFFFF",
+  "backgroundNeutral": "#E6EAF1",
+  "tableAccent": "#17A398",
+  "good": "#2ECC71",
+  "neutral": "#F2A93B",
+  "bad": "#E15554",
+  "maximum": "#1B2A4A",
+  "center": "#F2A93B",
+  "minimum": "#E15554",
+  "null": "#9AA0A6",
+  "hyperlink": "#17A398",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E6EAF1" } },
+            "radius": 8
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#1B2A4A" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold",
+            "alignment": "left"
+          }
+        ],
+        "visualHeaderTooltip": [
+          { "show": true }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F7F9FC" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#1B2A4A" } },
+            "fontSize": 28,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#5A5A5A" } },
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "lineStyles": [
+          { "strokeWidth": 3, "showMarker": false }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "gridVertical": true,
+            "gridVerticalColor": { "solid": { "color": "#E6EAF1" } },
+            "gridHorizontal": true,
+            "gridHorizontalColor": { "solid": { "color": "#E6EAF1" } },
+            "rowPadding": 4
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "backColor": { "solid": { "color": "#1B2A4A" } },
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          { "fontColor": { "solid": { "color": "#1B2A4A" } }, "fontSize": 11 }
+        ]
+      }
+    }
+  }
+}
